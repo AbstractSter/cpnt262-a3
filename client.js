@@ -8,7 +8,7 @@ const users = [
     lastName: "Smith",
     age: 31,
     hairStyle: "Short",
-     email: "sterling@gmail.com",
+    email: "sterling@gmail.com",
   },
   {
     firstName: "Conrad",
@@ -27,7 +27,18 @@ const users = [
 ];
 
 // Extract specific info
-document.getElementById("output").innerHTML = users.firstName + "is" + sterling.age + "years old";
+// const ageOutput = document.getElementById("output");
+
+// ageOutput.innerHTML = users[0].firstName + " is " + users[0].age + " years old.";
+
+// Add to an array
+userNames.push("Greg");
+
+document.getElementById("output").innerHTML = userNames;
+
+
+
+
 
 
 
