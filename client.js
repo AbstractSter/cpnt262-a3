@@ -1,27 +1,33 @@
 // Create an array
-const users = ["Sterling", "Conrad", "Nancy"];
+const userNames = ["Sterling", "Conrad", "Nancy"];
 
-// 
-const sterling = {
-  firstName: "Sterling";
-  lastName: "Smith";
-  age: 31;
-  hairStyle: "Short";
-};
+// Create objects within the arrays
+const users = [
+  {
+    firstName: "Sterling",
+    lastName: "Smith",
+    age: 31,
+    hairStyle: "Short",
+     email: "sterling@gmail.com",
+  },
+  {
+    firstName: "Conrad",
+    lastName: "Smith",
+    age: 33,
+    hairStyle: "Bald",
+    email: "conrad@gmail.com",
+  },
+  {
+    firstName: "Nancy",
+    lastName: "Smith",
+    age: 66,
+    hairStyle: "Long",
+    email: "nancy@gmail.com",
+  }
+];
 
-const conrad = {
-  firstName: "Conrad";
-  lastName: "Smith";
-  age: 33;
-  hairStyle: "Bald";
-};
-
-const sterling = {
-  firstName: "Nancy";
-  lastName: "Smith";
-  age: 66;
-  hairStyle: "Long";
-};
+// Extract specific info
+document.getElementById("output").innerHTML = users.firstName + "is" + sterling.age + "years old";
 
 
 
