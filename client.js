@@ -1,7 +1,29 @@
 // Create an array
-const users = [
-  {id: 1, name: "Sterling", age: 31},
-  {id: 2, name: "Conrad", age: 33},
-  {id: 3, name: "Nancy", age: 66},
-];
+const users = ["Sterling", "Conrad", "Nancy"];
+
+// 
+const sterling = {
+  firstName: "Sterling";
+  lastName: "Smith";
+  age: 31;
+  hairStyle: "Short";
+};
+
+const conrad = {
+  firstName: "Conrad";
+  lastName: "Smith";
+  age: 33;
+  hairStyle: "Bald";
+};
+
+const sterling = {
+  firstName: "Nancy";
+  lastName: "Smith";
+  age: 66;
+  hairStyle: "Long";
+};
+
+
+
+
 
