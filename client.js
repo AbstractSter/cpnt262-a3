@@ -28,13 +28,15 @@ const users = [
 
 // Extract specific info
 // const ageOutput = document.getElementById("output");
-
 // ageOutput.innerHTML = users[0].firstName + " is " + users[0].age + " years old.";
 
 // Add to an array
 userNames.push("Greg");
-
 document.getElementById("output").innerHTML = userNames;
+
+// Remove from an array
+const popped = userNames.pop(3);
+console.log(userNames);
 
 
 
