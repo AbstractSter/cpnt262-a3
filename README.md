@@ -1,7 +1,7 @@
 # cpnt262-a3
 CPNT 262 - Assignment 3 - Objects and Arrays
 
-### Author: Sterling Smith
+## Author: Sterling Smith
 
 ### Practical use cases
 - .push() - You could be adding a value to an existing array of information (ex. adding an email to someones contact info after all the main info has been entered)
